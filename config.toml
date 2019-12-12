@@ -1,0 +1,68 @@
+baseurl = "../"
+title = "JJu의 Cording Story"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "binario"
+disqusShortname = "jju-cording-story"
+
+[Author] # Used in authorbox
+  name = "Juhwan Kim"
+  bio = "하루하루는 최선을 인생은 되는대로~"
+  avatar = "img/jjuice.jpg"
+
+[Params]
+  description = "조금씩 성장하는 JJu의 좌충우돌 코딩 스토리 쮸쓰"
+  copyright = "JJuice"
+  opoengraph = true
+  columns = 2
+  mainSections = ["post"]
+  post_meta = ["date", "categories"]
+
+  colorTheme = "" #dark-green, #dark-blue, #dark-red, dark-violet
+#  customCSS = ["css/custom.css"]
+#  customJS = ["js/custom.js"]
+  mainMenuAlignment = "right"
+  authorbox = true
+  toc = true #enable table of contents for all site pages
+  tocOpen = true #oopen table of contents block
+  comments = true
+  related = true
+  relatedMax = 5 # set the maximum nember of posts the an be diaplayed in related block. optional
+  mathjax = true # enable mathjax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
+
+[Params.Social]
+email = "juk1126@gmail.com"
+facebook = "juhwan.kim.735"
+github = "bossanovajju"
+
+
+[Params.Share]
+facebook = false
+
+# Web App Manifest settings
+# https://www.w3.org/TR/appmanifest/
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+[Params.Manifest]
+  name = "Binario"
+  shortName = "Binario"
+  display = "browser"
+  startUrl = "/"
+  backgroundColor = "#2a2a2a"
+  themeColor = "#1b1b1b"
+  description = "Responsive card-based & code-light Hugo theme"
+  orientation = "portrait"
+  scope = "/"
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType = "application/json"
+    baseName = "manifest"
+    isPlainText = true
+    notAlternative = true
+[outputs]
+  home = ["HTML", "RSS", "MANIFEST"]
