@@ -4,6 +4,8 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "binario"
 disqusShortname = "jju-cording-story"
+googleAnalytics = "UA-165917451-1"
+
 
 [Author] # Used in authorbox
   name = "Juhwan Kim"
