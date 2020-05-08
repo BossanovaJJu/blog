@@ -6,7 +6,7 @@ date: 2020-04-21T17:40:14+09:00
 
 
 # Using React in a Laravel application
-
+[![HitCount](http://hits.dwyl.com/{username}/{project}.svg)](http://hits.dwyl.com/{username}/{project})
 
 
 ### 참조 내용
